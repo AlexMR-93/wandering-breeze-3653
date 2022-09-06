@@ -1,0 +1,7 @@
+<h1>Contestants index page </h1>
+
+<% @contestants.each do |contestant| %>
+<p><%= "#{contestant.name}" %></p>
+
+<p> <%= "#{@proj_name}" %></p>
+<% end %>
